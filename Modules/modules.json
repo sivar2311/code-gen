@@ -1,0 +1,114 @@
+[
+    { // BandsController
+      Type        : 'BandsController',
+      IncludePath : 'Controller/BandsController.h',
+      Handler     : 'if (handleBandsController(action, request_value, response_value)) return true;',
+      CallbackURL : baseURL + 'BandsController/callbacks.h',
+      VariableURL : baseURL + 'BandsController/variable.h',
+      SetupURL    : baseURL + 'BandsController/setup.h'
+    },
+    { // BrightnessController
+      Type        : 'BrightnessController',
+      IncludePath : 'Controller/BrightnessController.h',
+      Handler     : 'if (handleBrightnessController(action, request_value, response_value)) return true;',
+      CallbackURL : baseURL + 'BrightnessController/callbacks.h',
+      VariableURL : baseURL + 'BrightnessController/variable.h',
+      SetupURL    : baseURL + 'BrightnessController/setup.h'
+
+    },
+    { // ChannelController
+      Type        : 'ChannelController',
+      IncludePath : 'Controller/ChannelController.h',
+      Handler     : 'if (handleChannelController(action, request_value, response_value)) return true;'
+    },
+    { // ColorController
+      Type        : 'ColorController',
+      IncludePath : 'Controller/ColorController.h',
+      Handler     : 'if (handleColorController(action, request_value, response_value)) return true;',
+      ExampleURL  : 'https://gist.githubusercontent.com/sivar2311/5c7aef236a51f0cf3142a54fd60b91c2/raw/bf2b1c54674160ff55856a6fb7d1d40282bb7801/ColorController.h'
+    },
+    { // ColorTemperatureController
+      Type        : 'ColorTemperatureController',
+      IncludePath : 'Controller/ColorTemperatureController.h',
+      Handler     : 'if (handleColorTemperatureController(action, request_value, response_value)) return true;'
+    },
+    { // InputController
+      Type        : 'InputController',
+      IncludePath : 'Controller/InputController.h',
+      Handler     : 'if (handleInputController(action, request_value, response_value)) return true;'
+    },
+    { // LockController
+      Type        : 'LockController',
+      IncludePath : 'Controller/LockController.h',
+      Handler     : 'if (handleLockController(action, request_value, response_value)) return true;'
+    },
+    { // MediaController
+      Type        : 'MediaController',
+      IncludePath : 'Controller/MediaController.h',
+      Handler     : 'if (handleMediaController(action, request_value, response_value)) return true;'
+    },
+    { // ModeController
+      Type        : 'ModeController',
+      IncludePath : 'Controller/ModeController.h',
+      Handler     : 'if (handleModeController(action, instance, request_value, response_value)) return true;'
+    },
+    { // MuteController
+      Type        : 'MuteController',
+      IncludePath : 'Controller/MuteController.h',
+      Handler     : 'if (handleMuteController(action, request_value, response_value)) return true;'
+    },
+    { // PowerLevelController
+      Type        : 'PowerLevelController',
+      IncludePath : 'Controller/PowerLevelController.h',
+      Handler     : 'if (handlePowerLevelController(action, request_value, response_value)) return true;'
+    },
+    { // PowerStateController
+      Type        : 'PowerStateController',
+      IncludePath : 'Controller/PowerStateController.h',
+      Handler     : 'if (handlePowerStateController(action, request_value, response_value)) return true;'
+    },
+    { // RangeController
+      Type        : 'RangeController',
+      IncludePath : 'Controller/RangeController.h',
+      Handler     : 'if (handleRangeController(action, instance, request_value, response_value)) return true;'
+    },
+    { // ThermostatController
+      Type        : 'ThermostatController',
+      IncludePath : 'Controller/ThermostatController.h',
+      Handler     : 'if (handleThermostatController(action, request_value, response_value)) return true;'
+    },
+    { // ToggleController
+      Type        : 'ToggleController',
+      IncludePath : 'Controller/ToggleController.h',
+      Handler     : 'if (handleToggleController(action, instance, request_value, response_value)) return true;'
+    },
+    { // VolumeController
+      Type        : 'VolumeController',
+      IncludePath : 'Controller/VolumeController.h',
+      Handler     : 'if (handleVolumeController(action, request_value, response_value)) return true;'
+    },
+    { // AirQualityEventSource
+      Type        : 'AirQualityEventSource',
+      IncludePath : 'EventSource/AirQualityEventSource.h'
+    },
+    { // ContactEventSource
+      Type        : 'ContactEventSource',
+      IncludePath : 'EventSource/ContactEventSource.h'
+    },
+    { // DoorbellEventSource
+      Type        : 'DoorbellEventSource',
+      IncludePath : 'EventSource/DoorbellEventSource.h'
+    },
+    { // MotionEventSource
+      Type        : 'MotionEventSource',
+      IncludePath : 'EventSource/MotionEventSource.h'
+    },
+    { // PowerSensorEventSource
+      Type        : 'PowerSensorEventSource',
+      IncludePath : 'EventSource/PowerSensorEventSource.h'
+    },
+    { // TemperatureEventSource
+      Type        : 'TemperatureEventSource',
+      IncludePath : 'EventSource/TemperatureEventSource.h'
+    }
+  ]
