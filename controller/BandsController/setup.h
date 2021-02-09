@@ -1,4 +1,4 @@
-  myCustomDevice.onSetBands(onSetBands);
-  myCustomDevice.onAdjustBands(onAdjustBands);
-  myCustomDevice.onResetBands(onResetBands);
-  
+
+  myDevice.onSetBands(onSetBands);
+  myDevice.onAdjustBands(onAdjustBands);
+  myDevice.onResetBands(onResetBands);
