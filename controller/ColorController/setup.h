@@ -1,0 +1,2 @@
+  myDevice.onColor(onColor);  
+  
