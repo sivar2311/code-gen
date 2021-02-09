@@ -1,0 +1,2 @@
+  myDevice.onSelectInput(onSelectInput);
+  
