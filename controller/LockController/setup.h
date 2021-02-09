@@ -1,0 +1,2 @@
+  myDevice.onLockState(onLockState);
+  
