@@ -1,0 +1,2 @@
+  myDevice.onMediaControl(onMediaControl);
+  
