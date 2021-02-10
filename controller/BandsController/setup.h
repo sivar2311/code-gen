@@ -1,5 +1,5 @@
   // BandsController
   
-  myDevice.onSetBands(onSetBands);
-  myDevice.onAdjustBands(onAdjustBands);
-  myDevice.onResetBands(onResetBands);
+  <%=device.deviceInstance%>.onSetBands(onSetBands);
+  <%=device.deviceInstance%>.onAdjustBands(onAdjustBands);
+  <%=device.deviceInstance%>.onResetBands(onResetBands);
