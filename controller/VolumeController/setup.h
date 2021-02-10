@@ -1,4 +1,4 @@
   // VolumeController
 
-  myDevice.onSetVolume(onSetVolume);
-  myDevice.onAdjustVolume(onAdjustVolume);
+  <%=device.deviceInstance%>.onSetVolume(onSetVolume);
+  <%=device.deviceInstance%>.onAdjustVolume(onAdjustVolume);

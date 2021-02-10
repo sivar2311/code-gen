@@ -1,6 +1,6 @@
   // ColorTemperatureController
 
-  myDevice.onColorTemperature(onColorTemperature);
-  myDevice.onIncreaseColorTemperature(onIncreaseColorTemperature);
-  myDevice.onDecreaseColorTemperature(onDecreaseColorTemperature);
+  <%=device.deviceInstance%>.onColorTemperature(onColorTemperature);
+  <%=device.deviceInstance%>.onIncreaseColorTemperature(onIncreaseColorTemperature);
+  <%=device.deviceInstance%>.onDecreaseColorTemperature(onDecreaseColorTemperature);
   

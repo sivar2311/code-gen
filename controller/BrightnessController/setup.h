@@ -1,4 +1,4 @@
   // BrightnessController
 
-  myDevice.onBrightness(onBrightness);
-  myDevice.onAdjustBrightness(onAdjustBrightness);
+  <%=device.deviceInstance%>.onBrightness(onBrightness);
+  <%=device.deviceInstance%>.onAdjustBrightness(onAdjustBrightness);

@@ -1,3 +1,3 @@
   // MuteController
 
-  myDevice.onMute(onMute);
+  <%=device.deviceInstance%>.onMute(onMute);

@@ -1,5 +1,5 @@
   // ThermostatController
 
-  myDevice.onTargetTemperature(onTargetTemperature);
-  myDevice.onAdjustTargetTemperature(onAdjustTargetTemperature);
-  myDevice.onThermostatMode(onThermostatMode);
+  <%=device.deviceInstance%>.onTargetTemperature(onTargetTemperature);
+  <%=device.deviceInstance%>.onAdjustTargetTemperature(onAdjustTargetTemperature);
+  <%=device.deviceInstance%>.onThermostatMode(onThermostatMode);

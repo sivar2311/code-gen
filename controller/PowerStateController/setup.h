@@ -1,3 +1,3 @@
   // PowerStateController
 
-  myDevice.onPowerState(onPowerState);
+  <%=device.deviceInstance%>.onPowerState(onPowerState);

@@ -1,6 +1,6 @@
   // ChannelController
 
   setupChannelNumbers();
-  myDevice.onChangeChannel(onChangeChannel);
-  myDevice.onChangeChannelNumber(onChangeChannelNumber);
-  myDevice.onSkipChannels(onSkipChannels);
+  <%=device.deviceInstance%>.onChangeChannel(onChangeChannel);
+  <%=device.deviceInstance%>.onChangeChannelNumber(onChangeChannelNumber);
+  <%=device.deviceInstance%>.onSkipChannels(onSkipChannels);

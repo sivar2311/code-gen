@@ -1,4 +1,4 @@
   // PowerLevelController
 
-  myDevice.onPowerLevel(onPowerLevel);
-  myDevice.onAdjustPowerLevel(onAdustPowerLevel);
+  <%=device.deviceInstance%>.onPowerLevel(onPowerLevel);
+  <%=device.deviceInstance%>.onAdjustPowerLevel(onAdustPowerLevel);

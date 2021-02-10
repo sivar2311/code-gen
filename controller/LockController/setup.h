@@ -1,3 +1,3 @@
   // LockController
 
-  myDevice.onLockState(onLockState);
+  <%=device.deviceInstance%>.onLockState(onLockState);

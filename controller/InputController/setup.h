@@ -1,3 +1,3 @@
   // InputController
 
-  myDevice.onSelectInput(onSelectInput);
+  <%=device.deviceInstance%>.onSelectInput(onSelectInput);

@@ -1,3 +1,3 @@
   // MediaController
 
-  myDevice.onMediaControl(onMediaControl);
+  <%=device.deviceInstance%>.onMediaControl(onMediaControl);

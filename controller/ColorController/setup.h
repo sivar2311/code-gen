@@ -1,3 +1,3 @@
   // ColorController
 
-  myDevice.onColor(onColor);
+  <%=device.deviceInstance%>.onColor(onColor);
