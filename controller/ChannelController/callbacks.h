@@ -1,3 +1,5 @@
+// ChannelController
+
 bool onChangeChannel(const String &deviceId, String &channel) {
   tvChannel = channelNumbers[channel]; // save new channelNumber in tvChannel variable
   Serial.printf("Change channel to \"%s\" (channel number %d)\r\n", channel.c_str(), tvChannel);

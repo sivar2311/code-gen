@@ -1,1 +1,3 @@
+// ColorTemperatureController
+
 int globalColorTemperature;

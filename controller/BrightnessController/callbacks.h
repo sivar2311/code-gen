@@ -1,3 +1,5 @@
+// BrightnessController
+
 bool onBrightness(const String &deviceId, int &brightness) {
   Serial.printf("Device %s brightness %d\r\n", deviceId.c_str(), brightness);
   return true; // request handled properly
