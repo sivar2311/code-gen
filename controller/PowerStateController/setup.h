@@ -1,0 +1,3 @@
+  // PowerStateController
+
+  myDevice.onPowerState(onPowerState);
