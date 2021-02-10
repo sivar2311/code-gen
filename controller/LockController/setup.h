@@ -1,4 +1,3 @@
-// LockController
+  // LockController
 
   myDevice.onLockState(onLockState);
-  

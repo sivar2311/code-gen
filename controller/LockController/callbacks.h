@@ -5,4 +5,3 @@ bool onLockState(const String &deviceId, bool &state) {
   lockState = state;
   return true;
 }
-

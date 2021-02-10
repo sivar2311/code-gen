@@ -1,4 +1,4 @@
-// ColorTemperatureController
+  // ColorTemperatureController
 
   myDevice.onColorTemperature(onColorTemperature);
   myDevice.onIncreaseColorTemperature(onIncreaseColorTemperature);

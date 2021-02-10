@@ -1,4 +1,3 @@
-// InputController
+  // InputController
 
   myDevice.onSelectInput(onSelectInput);
-  

@@ -1,4 +1,3 @@
-// ColorController
+  // ColorController
 
-  myDevice.onColor(onColor);  
-  
+  myDevice.onColor(onColor);

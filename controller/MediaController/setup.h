@@ -1,4 +1,3 @@
-// MediaController
+  // MediaController
 
   myDevice.onMediaControl(onMediaControl);
-  
