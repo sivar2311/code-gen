@@ -1,0 +1,3 @@
+  // MuteController
+
+  myDevice.onMute(onMute);
