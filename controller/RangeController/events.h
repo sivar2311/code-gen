@@ -1,5 +1,5 @@
 // RangeController
 
-void updateRangeValue(String instance,int value) {
+void updateRangeValue(String instance, int value) {
   <%= device.deviceInstance %>.sendRangeValueEvent(instance, value);
 }
