@@ -17,7 +17,7 @@ const char* channelNames[] = {
 
 #define MAX_CHANNELS sizeof(channelNames) / sizeof(channelNames[0])
 
-int tvChannel; // current channel selected
+unsigned int tvChannel; // current channel selected
 std::map<String, unsigned int> channelNumbers;
 
 void setupChannelNumbers() {
