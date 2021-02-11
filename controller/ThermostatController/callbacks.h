@@ -14,7 +14,7 @@ bool onAdjustTargetTemperature(const String &deviceId, float &tempDelta) {
 }
 
 bool onThermostatMode(const String& deviceId, String& mode) {
-  Serial.printf("Deivce %s thermostat mode set to %s\r\n", deviceId.c_str(), mode);
+  Serial.printf("Deivce %s thermostat mode set to %s\r\n", deviceId.c_str(), mode.c_str());
   globalThermostatMode = mode;
   return true; // request handled properly
 }

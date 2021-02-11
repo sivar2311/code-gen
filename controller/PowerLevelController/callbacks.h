@@ -9,6 +9,6 @@ bool onPowerLevel(const String &deviceId, int &powerLevel) {
 bool onAdjustPowerLevel(const String &deviceId, int &powerLevelDelta) {
   globalPowerLevel += powerLevelDelta; // calculate absolute power level
   Serial.printf("Device %s brightness changed about %i to %d\r\n", deviceId.c_str(), powerLevelDelta, globalPowerLevel);
-  powerDelta = globalPowerLevel; // return absolute power level
+  powerLevelDelta = globalPowerLevel; // return absolute power level
   return true;                   // request handled properly
 }
