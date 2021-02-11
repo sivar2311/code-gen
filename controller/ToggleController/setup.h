@@ -1,4 +1,4 @@
   // ToggleController
 
-<% modeControllerInstances.forEach(element => {%>  <%=device.deviceInstance%>.onToggleState("<%=element%>", onToggleState);
+<% toggleControllerInstances.forEach(element => {%>  <%=device.deviceInstance%>.onToggleState("<%=element%>", onToggleState);
 <%});%>
