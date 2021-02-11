@@ -1,7 +1,7 @@
 ---
 name: Forgot my password
-about: Please reset my password
-title: ''
+about: Reset Password
+title: Please reset my password
 labels: ''
 assignees: ''
 
